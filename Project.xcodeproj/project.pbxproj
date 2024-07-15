@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49A9C4B72C41931D00E569C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A9C4B62C41931D00E569C6 /* ContentView.swift */; };
+		49A9C4B92C4196E700E569C6 /* DoctorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A9C4B82C4196E700E569C6 /* DoctorView.swift */; };
+		49A9C4BB2C4196FC00E569C6 /* PatientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A9C4BA2C4196FC00E569C6 /* PatientView.swift */; };
+		49A9C4F52C41BC1100E569C6 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A9C4F42C41BC1100E569C6 /* ARViewContainer.swift */; };
 		49DAF4802C3701AB00A3CE38 /* ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DAF47F2C3701AB00A3CE38 /* ProjectApp.swift */; };
-		49DAF4822C3701AB00A3CE38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DAF4812C3701AB00A3CE38 /* ContentView.swift */; };
 		49DAF4842C3701AE00A3CE38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DAF4832C3701AE00A3CE38 /* Assets.xcassets */; };
-		49DAF4872C3701AE00A3CE38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DAF4862C3701AE00A3CE38 /* Preview Assets.xcassets */; };
 		49DAF4912C3701AE00A3CE38 /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DAF4902C3701AE00A3CE38 /* ProjectTests.swift */; };
 		49DAF49B2C3701AE00A3CE38 /* ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DAF49A2C3701AE00A3CE38 /* ProjectUITests.swift */; };
 		49DAF49D2C3701AE00A3CE38 /* ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DAF49C2C3701AE00A3CE38 /* ProjectUITestsLaunchTests.swift */; };
@@ -34,11 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49A9C4B62C41931D00E569C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49A9C4B82C4196E700E569C6 /* DoctorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorView.swift; sourceTree = "<group>"; };
+		49A9C4BA2C4196FC00E569C6 /* PatientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientView.swift; sourceTree = "<group>"; };
+		49A9C4F42C41BC1100E569C6 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
 		49DAF47C2C3701AB00A3CE38 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DAF47F2C3701AB00A3CE38 /* ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectApp.swift; sourceTree = "<group>"; };
-		49DAF4812C3701AB00A3CE38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49DAF4832C3701AE00A3CE38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		49DAF4862C3701AE00A3CE38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49DAF48C2C3701AE00A3CE38 /* ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DAF4902C3701AE00A3CE38 /* ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTests.swift; sourceTree = "<group>"; };
 		49DAF4962C3701AE00A3CE38 /* ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +75,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49A9C4BC2C41B33000E569C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		49DAF4732C3701AB00A3CE38 = {
 			isa = PBXGroup;
 			children = (
@@ -94,20 +105,15 @@
 		49DAF47E2C3701AB00A3CE38 /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				49A9C4BC2C41B33000E569C6 /* Preview Content */,
 				49DAF47F2C3701AB00A3CE38 /* ProjectApp.swift */,
-				49DAF4812C3701AB00A3CE38 /* ContentView.swift */,
+				49A9C4B62C41931D00E569C6 /* ContentView.swift */,
+				49A9C4B82C4196E700E569C6 /* DoctorView.swift */,
+				49A9C4F42C41BC1100E569C6 /* ARViewContainer.swift */,
+				49A9C4BA2C4196FC00E569C6 /* PatientView.swift */,
 				49DAF4832C3701AE00A3CE38 /* Assets.xcassets */,
-				49DAF4852C3701AE00A3CE38 /* Preview Content */,
 			);
 			path = Project;
-			sourceTree = "<group>";
-		};
-		49DAF4852C3701AE00A3CE38 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				49DAF4862C3701AE00A3CE38 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		49DAF48F2C3701AE00A3CE38 /* ProjectTests */ = {
@@ -231,7 +237,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49DAF4872C3701AE00A3CE38 /* Preview Assets.xcassets in Resources */,
 				49DAF4842C3701AE00A3CE38 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +262,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49DAF4822C3701AB00A3CE38 /* ContentView.swift in Sources */,
+				49A9C4BB2C4196FC00E569C6 /* PatientView.swift in Sources */,
+				49A9C4B72C41931D00E569C6 /* ContentView.swift in Sources */,
 				49DAF4802C3701AB00A3CE38 /* ProjectApp.swift in Sources */,
+				49A9C4B92C4196E700E569C6 /* DoctorView.swift in Sources */,
+				49A9C4F52C41BC1100E569C6 /* ARViewContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +433,7 @@
 				DEVELOPMENT_TEAM = 5AJ2MAHG7K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "L'applicazione necessita l'uso della camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -435,7 +444,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mobidev.Project;
+				PRODUCT_BUNDLE_IDENTIFIER = mobidev.AnkleUltrasoundPositioning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -454,6 +463,7 @@
 				DEVELOPMENT_TEAM = 5AJ2MAHG7K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "L'applicazione necessita l'uso della camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -464,7 +474,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mobidev.Project;
+				PRODUCT_BUNDLE_IDENTIFIER = mobidev.AnkleUltrasoundPositioning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
